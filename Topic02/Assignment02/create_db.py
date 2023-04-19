@@ -47,7 +47,6 @@ def create_tables(database):
                                     id integer PRIMARY KEY,
                                     major text NOT NULL,
                                     begin_date text NOT NULL,
-                                    end_date text,
                                     FOREIGN KEY (id) REFERENCES person (id)
                                 );"""
 
